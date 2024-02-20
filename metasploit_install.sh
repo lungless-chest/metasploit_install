@@ -9,8 +9,8 @@
  sudo service postgresql start
  msfdb init
  cd ~
- sudo apt-get install python3
- sudo apt-get install pip
+ sudo apt-get install -y python3
+ sudo apt-get install -y pip
  pip install shodan
  sudo apt-get update
  sudo apt-get upgrade -y
